@@ -1,0 +1,10 @@
+﻿빌드 시작: 2016-05-03 오전 2:36:04
+     1>2 노드의 "c:\Users\dlawk_000\documents\visual studio 2013\Projects\sudokutesseracttest\sudokutesseracttest\sudokutesseracttest.vcxproj" 프로젝트(Build 대상)입니다.
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\dlawk_000\documents\visual studio 2013\Projects\sudokutesseracttest\Debug\/sudokutesseracttest.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\OpenCV3.0.0\build\x86\vc12\lib" /LIBPATH:"C:\Program Files (x86)\Tesseract-OCR\lib" /LIBPATH:"C:\Program Files (x86)\Tesseract-OCR\tesseract-ocr\vs2008\DLL_Release" opencv_world300d.lib liblept168.lib liblept168d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\dlawk_000\documents\visual studio 2013\Projects\sudokutesseracttest\Debug\/sudokutesseracttest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\dlawk_000\documents\visual studio 2013\Projects\sudokutesseracttest\Debug\sudokutesseracttest.lib" /MACHINE:X86 Debug\sudokutesseracttest.obj
+         sudokutesseracttest.vcxproj -> c:\users\dlawk_000\documents\visual studio 2013\Projects\sudokutesseracttest\Debug\sudokutesseracttest.exe
+     1>"c:\Users\dlawk_000\documents\visual studio 2013\Projects\sudokutesseracttest\sudokutesseracttest\sudokutesseracttest.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:00.33

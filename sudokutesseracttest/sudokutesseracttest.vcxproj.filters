@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{a4e9a92b-03ca-4c95-a04a-49548ffea94b}</UniqueIdentifier>
+      <Extensions>c;cpp;</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{f1999d9a-f704-437c-9d41-86f9891ee00b}</UniqueIdentifier>
+      <Extensions>h;hpp;</Extensions>
+    </Filter>
+    <Filter Include="이미지 파일">
+      <UniqueIdentifier>{6dc3f4cd-e07a-462d-a9e6-82d057316a80}</UniqueIdentifier>
+      <Extensions>bmp;jpg;png;gif;avi;mpeg;mpg;</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="sudokutesseracttest.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
