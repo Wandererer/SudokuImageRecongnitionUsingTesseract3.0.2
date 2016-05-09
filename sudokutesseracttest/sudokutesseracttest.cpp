@@ -13,15 +13,9 @@ int main()
 {
 
 
-	//Mat findImage = imread("find.jpg", IMREAD_GRAYSCALE);
-	//Mat findImage = imread("sudo.jpg", IMREAD_GRAYSCALE); //이건 잘됨
-	//Mat findImage = imread("sudo2.jpg", IMREAD_GRAYSCALE);
-	//Mat findImage = imread("sudo3.jpg", IMREAD_GRAYSCALE); 
-	Mat findImage = imread("sudo3.jpg", IMREAD_GRAYSCALE); //이 이미지
-	//Mat findImage = imread("sudo5.jpg", IMREAD_GRAYSCALE);
-	//Mat findImage = imread("sudo6.jpg", IMREAD_GRAYSCALE);
-	//Mat findImage = imread("sudo7.png", IMREAD_GRAYSCALE);
-	//Mat findImage = imread("sudo8.png", IMREAD_GRAYSCALE);
+
+	Mat findImage = imread("sudo.jpg", IMREAD_GRAYSCALE); //이 이미지
+
 	int tempsudo[81] = { 0 };
 	int sudoku[9][9] = { 0 };
 
@@ -471,6 +465,7 @@ jumpAdaptiveThreshold:
 		int testPixel = (height*width); //최대 픽셀 받아옴
 
 		//그 칸이 빈칸일 경우 골라서 0을 넣음 
+		/*
 		for (int a = 0; a < tempImage.rows; a++)
 		{
 			for (int b = 0; b < tempImage.cols; b++)
@@ -487,6 +482,7 @@ jumpAdaptiveThreshold:
 			if (continueNum >= (testPixel - 10))
 				break;
 		}
+		*/
 		if (continueNum >= testPixel){
 			sudoTestte[d++] = atoi("0");
 			tessRecogNum[i][0] = '0';

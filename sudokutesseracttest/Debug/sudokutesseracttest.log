@@ -1,10 +1,38 @@
-﻿빌드 시작: 2016-05-03 오전 2:36:04
-     1>2 노드의 "c:\Users\dlawk_000\documents\visual studio 2013\Projects\sudokutesseracttest\sudokutesseracttest\sudokutesseracttest.vcxproj" 프로젝트(Build 대상)입니다.
-     1>Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\dlawk_000\documents\visual studio 2013\Projects\sudokutesseracttest\Debug\/sudokutesseracttest.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\OpenCV3.0.0\build\x86\vc12\lib" /LIBPATH:"C:\Program Files (x86)\Tesseract-OCR\lib" /LIBPATH:"C:\Program Files (x86)\Tesseract-OCR\tesseract-ocr\vs2008\DLL_Release" opencv_world300d.lib liblept168.lib liblept168d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\dlawk_000\documents\visual studio 2013\Projects\sudokutesseracttest\Debug\/sudokutesseracttest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\dlawk_000\documents\visual studio 2013\Projects\sudokutesseracttest\Debug\sudokutesseracttest.lib" /MACHINE:X86 Debug\sudokutesseracttest.obj
-         sudokutesseracttest.vcxproj -> c:\users\dlawk_000\documents\visual studio 2013\Projects\sudokutesseracttest\Debug\sudokutesseracttest.exe
-     1>"c:\Users\dlawk_000\documents\visual studio 2013\Projects\sudokutesseracttest\sudokutesseracttest\sudokutesseracttest.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+﻿빌드 시작: 2016-05-09 오전 9:51:21
+     1>2 노드의 "C:\Users\dlawk_000\Documents\Visual Studio 2013\Projects\sudokutesseracttest\sudokutesseracttest\sudokutesseracttest.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files\OpenCV3.0.0\build\Include" /I"C:\Program Files\OpenCV3.0.0\build\Include\Opencv" /I"C:\Program Files\OpenCV3.0.0\build\Include\Opencv2" /I"C:\Program Files (x86)\Tesseract-OCR\tesseract-ocr\api" /I"C:\Program Files (x86)\Tesseract-OCR\tesseract-ocr\ccmain" /I"C:\Program Files (x86)\Tesseract-OCR\tesseract-ocr\ccutil" /I"C:\Program Files (x86)\Tesseract-OCR\tesseract-ocr\ccstruct" /I"C:\Program Files (x86)\Tesseract-OCR\tesseract-ocr\classify" /I"C:\Program Files (x86)\Tesseract-OCR\tesseract-ocr\cube" /I"C:\Program Files (x86)\Tesseract-OCR\tesseract-ocr\cutil" /I"C:\Program Files (x86)\Tesseract-OCR\tesseract-ocr\dict" /I"C:\Program Files (x86)\Tesseract-OCR\tesseract-ocr\image" /I"C:\Program Files (x86)\Tesseract-OCR\tesseract-ocr\neural_networks\runtime" /I"C:\Program Files (x86)\Tesseract-OCR\tesseract-ocr\textord" /I"C:\Program Files (x86)\Tesseract-OCR\tesseract-ocr\viewer" /I"C:\Program Files (x86)\Tesseract-OCR\tesseract-ocr\wordrec" /I. /I"C:\Program Files (x86)\Tesseract-OCR\include" /I"C:\Program Files (x86)\Tesseract-OCR\include\leptonica" /I"C:\Program Files (x86)\Tesseract-OCR\tesseract-ocr\vs2008\port" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _CONSOLE /D _DEBUG /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt sudokutesseracttest.cpp
+         sudokutesseracttest.cpp
+     1>c:\program files\opencv3.0.0\build\include\opencv2\core\mat.hpp(1965): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\opencv3.0.0\build\include\opencv2\core\persistence.hpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\opencv3.0.0\build\include\opencv2\core\utility.hpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files (x86)\tesseract-ocr\include\leptonica\pix.h(169): warning C4305: '초기화 중' : 'double'에서 'const l_float32'(으)로 잘립니다.
+     1>c:\program files (x86)\tesseract-ocr\include\leptonica\pix.h(171): warning C4305: '초기화 중' : 'double'에서 'const l_float32'(으)로 잘립니다.
+     1>c:\program files (x86)\tesseract-ocr\tesseract-ocr\ccutil\platform.h(33): warning C4005: 'snprintf' : 매크로 재정의
+                 c:\program files (x86)\tesseract-ocr\include\leptonica\environ.h(277) : 'snprintf'의 이전 정의를 참조하십시오.
+     1>c:\users\dlawk_000\documents\visual studio 2013\projects\sudokutesseracttest\sudokutesseracttest\sudokutesseracttest.cpp(61): warning C4018: '<' : signed 또는 unsigned가 일치하지 않습니다.
+     1>c:\users\dlawk_000\documents\visual studio 2013\projects\sudokutesseracttest\sudokutesseracttest\sudokutesseracttest.cpp(63): warning C4018: '>' : signed 또는 unsigned가 일치하지 않습니다.
+     1>c:\users\dlawk_000\documents\visual studio 2013\projects\sudokutesseracttest\sudokutesseracttest\sudokutesseracttest.cpp(67): warning C4018: '<' : signed 또는 unsigned가 일치하지 않습니다.
+     1>c:\users\dlawk_000\documents\visual studio 2013\projects\sudokutesseracttest\sudokutesseracttest\sudokutesseracttest.cpp(103): warning C4018: '<' : signed 또는 unsigned가 일치하지 않습니다.
+     1>c:\users\dlawk_000\documents\visual studio 2013\projects\sudokutesseracttest\sudokutesseracttest\sudokutesseracttest.cpp(105): warning C4018: '<' : signed 또는 unsigned가 일치하지 않습니다.
+     1>c:\users\dlawk_000\documents\visual studio 2013\projects\sudokutesseracttest\sudokutesseracttest\sudokutesseracttest.cpp(155): warning C4018: '<' : signed 또는 unsigned가 일치하지 않습니다.
+     1>c:\users\dlawk_000\documents\visual studio 2013\projects\sudokutesseracttest\sudokutesseracttest\sudokutesseracttest.cpp(161): warning C4018: '<' : signed 또는 unsigned가 일치하지 않습니다.
+     1>c:\users\dlawk_000\documents\visual studio 2013\projects\sudokutesseracttest\sudokutesseracttest\sudokutesseracttest.cpp(194): warning C4018: '<' : signed 또는 unsigned가 일치하지 않습니다.
+     1>c:\users\dlawk_000\documents\visual studio 2013\projects\sudokutesseracttest\sudokutesseracttest\sudokutesseracttest.cpp(206): warning C4018: '<' : signed 또는 unsigned가 일치하지 않습니다.
+     1>c:\users\dlawk_000\documents\visual studio 2013\projects\sudokutesseracttest\sudokutesseracttest\sudokutesseracttest.cpp(217): warning C4018: '<' : signed 또는 unsigned가 일치하지 않습니다.
+     1>c:\users\dlawk_000\documents\visual studio 2013\projects\sudokutesseracttest\sudokutesseracttest\sudokutesseracttest.cpp(293): warning C4018: '<' : signed 또는 unsigned가 일치하지 않습니다.
+     1>c:\users\dlawk_000\documents\visual studio 2013\projects\sudokutesseracttest\sudokutesseracttest\sudokutesseracttest.cpp(300): warning C4018: '<' : signed 또는 unsigned가 일치하지 않습니다.
+     1>c:\users\dlawk_000\documents\visual studio 2013\projects\sudokutesseracttest\sudokutesseracttest\sudokutesseracttest.cpp(333): warning C4018: '<' : signed 또는 unsigned가 일치하지 않습니다.
+     1>c:\users\dlawk_000\documents\visual studio 2013\projects\sudokutesseracttest\sudokutesseracttest\sudokutesseracttest.cpp(344): warning C4018: '<' : signed 또는 unsigned가 일치하지 않습니다.
+     1>c:\users\dlawk_000\documents\visual studio 2013\projects\sudokutesseracttest\sudokutesseracttest\sudokutesseracttest.cpp(357): warning C4018: '<' : signed 또는 unsigned가 일치하지 않습니다.
+     1>c:\users\dlawk_000\documents\visual studio 2013\projects\sudokutesseracttest\sudokutesseracttest\sudokutesseracttest.cpp(418): warning C4018: '<' : signed 또는 unsigned가 일치하지 않습니다.
+     1>c:\users\dlawk_000\documents\visual studio 2013\projects\sudokutesseracttest\sudokutesseracttest\sudokutesseracttest.cpp(420): warning C4018: '<' : signed 또는 unsigned가 일치하지 않습니다.
+     1>c:\users\dlawk_000\documents\visual studio 2013\projects\sudokutesseracttest\sudokutesseracttest\sudokutesseracttest.cpp(445): warning C4018: '<' : signed 또는 unsigned가 일치하지 않습니다.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\dlawk_000\Documents\Visual Studio 2013\Projects\sudokutesseracttest\Debug\/sudokutesseracttest.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\OpenCV3.0.0\build\x86\vc12\lib" /LIBPATH:"C:\Program Files (x86)\Tesseract-OCR\lib" /LIBPATH:"C:\Program Files (x86)\Tesseract-OCR\tesseract-ocr\vs2008\DLL_Release" opencv_world300d.lib liblept168.lib liblept168d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\dlawk_000\Documents\Visual Studio 2013\Projects\sudokutesseracttest\Debug\/sudokutesseracttest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\dlawk_000\Documents\Visual Studio 2013\Projects\sudokutesseracttest\Debug\sudokutesseracttest.lib" /MACHINE:X86 Debug\sudokutesseracttest.obj
+         sudokutesseracttest.vcxproj -> C:\Users\dlawk_000\Documents\Visual Studio 2013\Projects\sudokutesseracttest\Debug\sudokutesseracttest.exe
+     1>"C:\Users\dlawk_000\Documents\Visual Studio 2013\Projects\sudokutesseracttest\sudokutesseracttest\sudokutesseracttest.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
 
 빌드했습니다.
 
-경과 시간: 00:00:00.33
+경과 시간: 00:00:01.34
